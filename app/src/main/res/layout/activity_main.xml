@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="-40sp"
+        android:layout_marginBottom="10sp"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/ip_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_img"
+        android:layout_margin="20sp"
+        android:hint="Enter your ip"/>
+
+    <Button
+        android:id="@+id/fetch_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fetch"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/ip_editText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_shap"
+        />
+
+</RelativeLayout>
