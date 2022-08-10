@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="splashScreenTheme" parent="@style/Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ipinfo</item>
+    </style>
+</resources>
